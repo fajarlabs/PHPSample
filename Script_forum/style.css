@@ -1,0 +1,101 @@
+
+body {
+	background-color: #4E4E4E;
+	text-align: center;			
+}
+
+#header {
+	background-image: url(headerforum.jpg);
+	height: 100px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrapper {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content {
+	background-color: #fff;
+	border: 1px solid #000;
+	float: left;
+	font-family: Calibri, Verdana;
+	padding: 20px 30px;
+	text-align: left;
+	width:717px;				
+}
+
+#menu {
+  float: left;
+  border: 1px solid #000;
+  border-bottom: none;		
+  clear: both;				
+  width:717px;
+  height:20px;
+  padding: 0 30px;
+  background-color: #FFF;
+  text-align: left;
+  font-size: 85%;
+}
+
+#menu a:hover {
+	background-color: #6A2300;
+}
+
+/* menu styles */
+.item {
+	background-color: #993300;
+	border: 1px solid #032472;
+	color: #fff;
+	font-family: Arial;
+	padding: 3px;
+	text-decoration: none;
+}
+
+#userbar {
+	float: right;
+	width: 250px;
+}
+
+table {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+
+th {
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #351100;
+	color: #F0F0F0;
+}
+
+td {
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+
+textarea{
+	font-family: Calibri, Verdana;
+}
+
+#footer {
+	font-family: Arial;
+	color: #F1F3F1;
+	clear: both;
+	font-size: 65%;
+	padding: 3px 0 0 0;
+}

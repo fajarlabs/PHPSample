@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /situsberita/
+RewriteRule ^berita([0-9]+)-(.*)\.html$ selengkapnya.php?id=$1

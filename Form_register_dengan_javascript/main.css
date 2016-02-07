@@ -1,0 +1,38 @@
+
+body{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color:#fff;
+	color:#333;
+	font-size:12px;
+	padding-left:10px;
+	padding-bottom:30px;
+	line-height: 150%;
+}
+
+input, select, textarea{
+	border:1px solid #CCCCCC;
+	padding: 5px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input.blur {
+	color: #999;
+}
+
+.demo{
+	border:solid 1px #ccc;
+	background-color:#def;
+	padding:10px;
+	text-align: left;
+}
+
+form div {
+	padding: 4px 4px 4px 4px;
+}
+
+label {
+	float: left;
+	width: 90px;
+	text-align: left;
+}

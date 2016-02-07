@@ -1,0 +1,46 @@
+Membuka File
+Ada beberapa fungsi untuk membuka file, mulai dari membuka file saja, kemudian ada
+juga fungsi yang dapat membuka kemudian lalu menulis isi file, ada juga fungsi untuk
+membuka file sambil menulis, dan lain-lain.
+Membuka file saja anda dapat menggunakan syntax :
+
+*********************************
+$fp = fopen( NAMA_FILENYA, 'r' );
+*********************************
+dengan fungsi fopen(), dan paramater r di dalamnya, r disini hanya hanya dapat membuka
+file saja dan meletakkan pointer atau kursor di awal file.
+Membuka/membaca file kemudian menulis file tersebut anda dapat menggunakan syntax:
+
+*********************************
+$fp = fopen( NAMA_FILENYA, 'r+' );
+*********************************
+parameter r+ ini memungkinkan kita membaca file kemudian menulisi file tersebut
+dengan meletakkan kursor atau pointer pada awal file.
+
+Menulis file saja anda dapat menggunakan syntax :
+*********************************
+$fp = fopen( NAMA_FILENYA, 'w' );
+*********************************
+parameter w memungkinkan anda dapat menulis file, dengan meletakkan kursor di awal
+file.
+
+Membaca dan menulis file sekaligus anda dapat menggunakan syntax seperti ini :
+**********************************
+$fp = fopen( NAMA_FILENYA, 'w+' );
+**********************************
+parameter w+ memungkinkan anda dapat membaca dan menulis file, dengan meletakkan
+kursor di awal file.
+
+Menulis file saja anda dapat menggunakan syntax :
+**********************************
+$fp = fopen( NAMA_FILENYA, 'a' );
+**********************************
+parameter a memungkinkan anda dapat menulis file, namun meletakkan kursor di akhir
+file.
+
+Membaca dan menulis file sekaligus anda dapat menggunakan syntax seperti ini :
+**********************************
+$fp = fopen( NAMA_FILENYA, 'a+' );
+**********************************
+parameter a+ memungkinkan anda dapat membaca dan menulis file, namun php
+meletakkan kursornya di akhir file.

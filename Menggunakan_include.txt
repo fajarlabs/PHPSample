@@ -1,0 +1,32 @@
+Menggunakan Include dan require untuk efisiensi Coding
+Fungsi include dan require berfungsi untuk menjalankan banyak file secara
+berbarengan dengan caraa memasukkan file lain kedalam suatu file tertentu. bentuk
+penulisannya adalah seperti ini :
+***********************
+include "namafile.php";
+require "namafile.php";
+***********************
+Contoh implementasinya adalah seperti ini, kita akan membuat suatu argumen yang
+nilai variable nya itu diambil dari file yang lain. Pertama buat satu buah file dengan
+nama, variable.latihaninclude.php kemudian ketikkan di dalamnya seperti ini :
+
+<?php
+// file variable.latihaninclude.php
+$cuaca = "hujan";
+?>
+
+kemudian kita akan mengambil variable $cuaca tersebut untuk dimasukkan kedalam file
+yang lain, kita buat 1 buah file lagi, dengan nama, latihan_28.php, kemudian ketikkan di
+dalamnya seperti ini :
+
+<?php
+include "variable.latihaninclude.php";
+if ($cuaca == "cerah")
+	{
+		echo "Latihan bola di GOR";
+	}
+else
+	{
+		echo "Bikin mie ramen";
+	}
+?>
